@@ -8,10 +8,12 @@
 }
 
 
-html {
+:root {
   box-sizing: border-box;
   margin: 0;
-  background:linear-gradient(135deg, #ed6ea0 0%,#890717 100%), fixed, no-repeat;
+  background:linear-gradient(135deg, #ed6ea0 0%,#890717 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 14px;
